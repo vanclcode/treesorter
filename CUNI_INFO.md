@@ -1,5 +1,5 @@
 # Phylogenetic Tree Analyzer
-a seminar program by Adél Vancl, as part of _NPRG030/Programming I_ at Charles University, Faculty of Mathematics and Physics
+a seminar program by Adéla Vancl, as part of _NPRG030/Programming I_ at Charles University, Faculty of Mathematics and Physics
 
 ## Program Specification
 - The Program uses defined sets of taxons (which are systematically named _leaves_ of a tree) to **find highest value of an edge** (_bootstrap_), which signifies the probability of the tree being correctly divided by that edge into subtrees of only related _leaves_ – taxons – so that one of the subtrees, apart from specified _seed taxon_, only consists of _taxons_ matching patterns defined by _quantified set operations_ on the aformentioned sets of taxons. The highest _bootstrap_ is systematically saved in an output _CSV file_.

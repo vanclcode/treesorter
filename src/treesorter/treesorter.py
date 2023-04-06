@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.9
+#!/usr/bin/env python3
 from argparse import ArgumentParser
 from pprint import pprint
 from os.path import isfile, basename
@@ -615,7 +615,7 @@ def parse_args():
     parser.add_argument('--nested', action='store_true',
                         help="Requires use of seed taxon. Checks if seed taxon is nested within criteria set with minimum occurence.")
 
-    parser.add_argument('criteria', nargs='*',
+    parser.add_argument('-c', '--criteria', nargs='*',
                         help="One or more criteria to apply on subtrees defined with taxon names (* as wildcard), \
                         in the format of NAME=DEFINITIONS, where definitions can include required minimums using \
                         \'NUMBER+\' in front (decimal for relative, whole for absolute), also allowing \
